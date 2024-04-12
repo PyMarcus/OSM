@@ -72,8 +72,8 @@ class MapActivity : AppCompatActivity() {
         mLocationOverlay.enableMyLocation()
         map.overlays.add(mLocationOverlay)
 
-        currentLat = -20.5258752
-        currentLong = -43.6862976
+        currentLat = -20.50
+        currentLong = -43.60
         val startPoint = GeoPoint(currentLat, currentLong)
         mapController.setCenter(startPoint)
 
